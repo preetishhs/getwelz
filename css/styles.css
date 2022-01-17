@@ -917,18 +917,10 @@ input[type='checkbox'] {
   transition: all 0.2s ease;
 }
 
-.tabs .nav-link.active {
+.tabs .nav-link.active, .tabs .nav-link:hover {
   border-bottom: 0.1875rem solid #039190;
   background-color: transparent;
-  /* color: #039190; */
-  text-decoration: underline;
-  font-weight: 700;
-}
-.tabs .nav-link:hover {
-  border-bottom: 0.1875rem solid #039190;
-  background-color: transparent;
-  /* color: #039190; */
-  text-decoration: underline;
+  color: #039190;
 }
 
 .tabs .nav-link .fas {
